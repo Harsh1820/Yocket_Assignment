@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-  background-color: #1a1a1a;
+  background-color: #294ba7;
   color: #fff;
   font-family: "Arial", sans-serif;
 }
@@ -20,8 +20,8 @@ body {
 .start-button {
   padding: 15px 30px;
   font-size: 20px;
-  background-color: #4caf50;
-  color: #fff;
+  background-color: #057a09;
+  color: #6b0c0c;
   border: none;
   border-radius: 8px;
   cursor: pointer;
@@ -45,7 +45,7 @@ body {
   font-size: 32px;
   font-weight: bold;
   margin-bottom: 30px;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  text-shadow: 2px 2px 4px rgba(55, 18, 79, 0.5);
 }
 
 .city-cards {
@@ -58,16 +58,16 @@ body {
 .city-card {
   border-radius: 8px;
   padding: 20px;
-  background-color: #333;
+  background-color: #0c0a0a;
   width: 250px; /* Adjust width as needed */
   text-align: center;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  box-shadow: 0 4px 6px rgba(128, 10, 10, 0.3);
 }
 
 .city-card:hover {
   transform: translateY(-5px);
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 6px 12px rgba(138, 8, 8, 0.5);
 }
 
 .city-card img {

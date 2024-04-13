@@ -5,7 +5,6 @@ function LandingPage({ onStartGame }) {
   return (
     <div className="LandingPage">
       {" "}
-      {/* Add the LandingPage class to the container div */}
       <h1>Welcome to the Capture the Fugitive Game!</h1>
       <h2>Read Instructions carefully</h2>
       <h3>
@@ -15,7 +14,7 @@ function LandingPage({ onStartGame }) {
         hiding and they need your help!
       </h3>
       <div className="gamplayInstruction">
-        <h4>Gameplay:</h4>
+        <h4>Gameplay Rule:</h4>
         <table className="instructionTable">
           <thead>
             <tr>
